@@ -2,7 +2,7 @@ name: Auto Content Safe Mode
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # chạy mỗi 2 giờ
+    - cron: "0 */12 * * *"  # chạy mỗi 12 giờ
   workflow_dispatch: {}     # cho phép chạy tay
 
 jobs:
